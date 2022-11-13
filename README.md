@@ -1,36 +1,19 @@
-# Project 3: Community learning
+### Youtube scrapping! :)
 
-In this project, you will be doing unsupervised learning on an online dataset.
+Hi! This is our YouTube scrapping project. What we have done here is take comments written under a particular YouTube video using Selenium, use sklearn to turn said comments into numeric values, and visualize them on a 2D plane using Matplotlib, as well as using KMeans to generate clusters of familiar sentiments.
 
-This can be done either through network embedding and clustering or through NLP word/sentence/paragraph/etc. embedding of the text in the dataset and clustering on this.
+The video we used for this project is "Artificial intelligence and algorithms: pros and cons | DW Documentary (AI documentary)", a video uploaded by DW Documentary, which goes over the implications of various AI technologies in the modern day. We chose this video as it is a relevant topic, has a lot of comments, and has a variety of perspectives.
 
-This project is **fully open-ended**, I encourage you to be creative.
+You can find the code for this project here: https://github.com/cb-ds-9/ds-project-data-engineering-3/blob/Lucas-Maria/Untitled.ipynb
 
-## Requirements
+You can find the video we used here: https://www.youtube.com/watch?v=s0dMTAQM4cw
 
-- You generate a new dataset from an online API or scraping. No pre-made datasets!
-- You discover underlying clusters (social communities, market patterns, etc.) using unsupervised learning tools we've seen in class (clustering, dimensionality reduction, pre-trained word embeddings, network embedding, etc.)
-- Produce a visualization in 2d or 3d of the data (using dimensionality reduction) with the clusters you found tagged. See reddit example below.
-- Analyze the produced clusters and use them to provide a short exposition (5-10min) of what you found. One team member can present if desired
+We've also included a list of all of the comments we've collected. This can be found in the "comments.txt" file.
 
-Reddit example visualization:
+We hope you enjoy this project!
 
-![](assets/reddit.png)
+## Authors:
 
+Lucas Hawranke
 
-## Interesting API examples
-
-- [Pushshift (reddit)](https://reddit-api.readthedocs.io/en/latest/)
-- [Twitter API](https://developer.twitter.com/en/docs/twitter-api)
-- [IG Graph API](https://developers.facebook.com/docs/instagram-api/#get-started)
-- [Tumblr](https://www.tumblr.com/docs/en/api/v2)
-- [Pinterest](https://www.pinterest.ca/login/?next=http%3A%2F%2Fdevelopers.pinterest.com%2Fapi_docs%2F)
-- [eBay](https://developer.ebay.com/common/api/)
-
-**You don't have to do it at a large scale**
-
-The data for these sort of projects can run very large if you let them, making the enterprise difficult.
-
-You can limit yourself to samples of the communities you're looking at rather than the entire thing.
-
-If you want to work at a larger scale, reach out to me and I'll help you with tools for larger graphs or larger text datasets.
+Maria Errhaimi
