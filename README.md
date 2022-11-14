@@ -8,6 +8,8 @@ You can find the code for this project here: https://github.com/cb-ds-9/ds-proje
 
 You can find the video we used here: https://www.youtube.com/watch?v=s0dMTAQM4cw
 
+An older version of the project (old.ipynb) can be found in the folder this is located in, with step-by-step instructions and explanations.
+
 We've also included a list of all of the comments we've collected. This can be found in the "comments.txt" file.
 
 We hope you enjoy this project!
